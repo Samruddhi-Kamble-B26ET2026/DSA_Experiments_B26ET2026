@@ -1,0 +1,6 @@
+Q: What is the time complexity of Bubble Sort?
+A: O(n^2)
+Q: Which sort is most efficient for small datasets?
+A: Insertion Sort
+Q: Is Quick Sort stable?
+A: No, Quick Sort is generally not stable because it may change the relative order of equal elements during sorting.
