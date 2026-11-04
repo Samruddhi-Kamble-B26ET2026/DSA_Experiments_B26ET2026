@@ -1,0 +1,10 @@
+Q: What is UART?
+A: A serial communication protocol used to send and receive data between devices.
+Q: Why use circular buffer for UART?
+A: It optimizes space and allows continuous data flow without memory shifting.
+Q: What happens when buffer is full?
+A: New data is lost or should be managed until space is available.
+Q: Is UART synchronous or asynchronous?
+A: UART is asynchronous communication.
+Q: What is baud rate?
+A: The speed of data transfer, measured in bits per second (bps).
