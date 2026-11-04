@@ -1,0 +1,69 @@
+1. What is a Queue?
+
+Ans: A queue is a linear data structure in which data is inserted from the rear end and deleted from the front end. It follows the FIFO (First In, First Out) principle.
+
+2. How is a queue represented?
+
+Ans: A queue can be represented using:
+1. Array
+2. Linked List
+3. Enlist the types of queues.
+
+Ans: The main types of queues are:
+1. Linear Queue
+2. Circular Queue
+3. Priority Queue
+4. Double-Ended Queue (Deque)
+4. What is the concept of a Circular Queue?
+
+Ans: A circular queue is a queue in which the last position is connected back to the first position, forming a circle. It helps in efficiently utilizing empty spaces in the queue.
+
+5. What are the applications of queues?
+
+Ans:
+1. CPU scheduling.
+2. Printer scheduling.
+3. Managing customer service systems.
+4. Network data transmission.
+5. Queue simulation.
+6. What is a Priority Queue?
+
+Ans: A priority queue is a collection of elements in which each element is assigned a priority. The deletion and processing of elements depend on the following rules:
+1. An element with higher priority is processed before an element with lower priority.
+2. If two elements have the same priority, they are processed in the order in which they were inserted (FIFO).
+7. What is a Deque?
+
+Ans: Deque stands for Double-Ended Queue.
+
+It is a linear data structure in which elements can be inserted and deleted from both ends (front and rear), but not from the middle.
+
+Additional important viva questions
+8. What is FIFO?
+
+Ans: FIFO stands for First In, First Out. The element inserted first is deleted first.
+
+9. What are Enqueue and Dequeue?
+
+Ans:
+- Enqueue: Inserting an element into the queue.
+- Dequeue: Removing an element from the queue.
+10. What is Queue Overflow?
+
+Ans: Queue overflow occurs when we try to insert an element into a full queue.
+
+11. What is Queue Underflow?
+
+Ans: Queue underflow occurs when we try to delete an element from an empty queue.
+
+12. What are the applications of a Circular Queue?
+
+Ans:
+- CPU scheduling.
+- Memory management.
+- Traffic systems.
+- Circular buffering.
+13. What is the difference between Stack and Queue?
+Stack	Queue
+Follows LIFO.	Follows FIFO.
+Insertion and deletion happen at the top.	Insertion happens at rear and deletion at front.
+Uses PUSH and POP.	Uses ENQUEUE and DEQUEUE.
