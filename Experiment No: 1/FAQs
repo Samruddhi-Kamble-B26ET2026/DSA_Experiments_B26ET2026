@@ -1,0 +1,67 @@
+1. What is a string?
+
+A string is an array of characters terminated by a null character (\0).
+
+2. Explain the string functions: strcmp(), strlen(), strcat(), strcpy().
+Function	Use
+strcmp()	Compares two strings.
+strlen()	Returns the length of a string.
+strcat()	Joins two strings.
+strcpy()	Copies one string into another.
+
+3. In string comparison, if two strings are the same, what is the result?
+
+The result is 0.
+
+4. What is the length of the string "Data Structures"?
+
+The length is 15 characters (including the space).
+
+5. Explain how to use strcpy().
+
+The syntax is:
+strcpy(destination, source);
+
+
+It copies the contents of the source string into the destination string.
+
+6. What is the strncat() string function?
+
+It appends the first n characters of one string to the end of another string.
+
+7. What is strrev()?
+
+It reverses a string.
+
+8. Which function is used to read a multi-word string?
+
+fgets() is the recommended function. gets() is an older, unsafe function and should not be used.
+
+9. What are the applications of strings?
+- Storing names and addresses.
+- Manipulating text.
+- Searching and comparing words.
+- Handling passwords and messages.
+10. What is the limitation of an array of pointers to strings?
+
+An array of pointers stores addresses of strings rather than storing the characters directly. Memory must be allocated appropriately before accepting keyboard input. scanf() can read strings into allocated memory, but %s reads only up to the first whitespace.
+
+Additional important viva questions
+11. Which header file is required for string functions?
+
+#include <string.h>
+
+12. What is the null character?
+
+\0 is a special character that marks the end of a string.
+
+13. What is the difference between strlen() and sizeof()?
+- strlen() returns the number of characters in a string, excluding \0.
+- sizeof() returns the memory size in bytes.
+14. What is the difference between strcpy() and strcat()?
+- strcpy() copies a string.
+- strcat() joins two strings.
+15. What is the return value of strcmp()?
+- 0 – Both strings are equal.
+- Negative value – First string is smaller.
+- Positive value – First string is greater.
