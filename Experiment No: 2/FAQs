@@ -1,0 +1,12 @@
+Q: What is binary search?
+A: A search algorithm that divides the sorted array into halves to locate the key.
+Q: What is the condition for using binary search?
+A: The array must be sorted.
+Q: What is the difference between iterative and recursive binary search?
+A: Iterative uses loops; recursive uses function calls.
+Q: What happens if the element is not in the array?
+A: The function returns -1.
+Q: What is the time complexity of binary search?
+A: O(log n)
+Q: Can binary search be used on unsorted arrays?
+A: No, it requires the array to be sorted
