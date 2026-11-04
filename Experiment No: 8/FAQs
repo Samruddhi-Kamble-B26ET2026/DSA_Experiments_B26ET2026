@@ -1,0 +1,53 @@
+1. What is a Tree?
+
+Ans: A tree is a non-linear data structure used for hierarchical data management.
+
+2. What is a Binary Tree?
+
+Ans: A binary tree is a tree that consists of a root node and two disjoint subtrees called the left subtree and the right subtree. Each node can have at most two children.
+
+3. What are the types of Binary Trees?
+
+Ans: The different types of binary trees are:
+1. Complete Binary Tree
+2. Full Binary Tree
+3. Binary Search Tree (BST)
+4. Skewed Binary Tree
+5. Threaded Binary Tree
+4. What are the tree traversal techniques?
+
+Ans: There are two types of tree traversal techniques:
+1. Recursive Traversal
+2. Non-Recursive Traversal
+5. What are the recursive tree traversal techniques?
+
+Ans: There are three recursive tree traversal techniques:
+1. Inorder (Left → Root → Right)
+2. Preorder (Root → Left → Right)
+3. Postorder (Left → Right → Root)
+6. What are AVL Trees?
+
+Ans: AVL trees are height-balanced Binary Search Trees (BST) in which the height difference between the left and right subtrees of every node is at most 1.
+
+7. What are the basic operations that can be performed on a Tree?
+
+Ans: The basic operations are:
+1. Create
+2. Insert
+3. Delete
+4. Search
+5. Traversal
+8. Explain the terms Degree and Height of a Tree.
+
+Ans:
+- Degree of a Node: The number of children (subtrees) of a node is called its degree.
+- Degree of a Tree: The maximum degree of any node in the tree.
+- Height of a Tree: The maximum number of edges in the longest path from the root node to a leaf node.
+
+
+
+
+
+
+
+
