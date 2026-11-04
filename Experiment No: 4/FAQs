@@ -1,0 +1,67 @@
+1. Define data, data item and entity.
+
+Ans:
+- Data: Data are values or a set of values.
+- Data Item: A single unit of data.
+- Entity: An object that has certain attributes, which can be assigned values.
+Example:
+Attribute	Value
+Name	XYZ
+Age	16
+City	Pune
+
+2. Define data structure.
+
+Ans: A data structure is a way of organizing and storing data along with the relationships between data items so that data can be accessed and manipulated efficiently.
+
+3. What are the types of data structures? Give examples.
+
+Ans: Data structures are classified into two main types:
+1. Primitive: Basic data types such as int, char, float and double.
+2. Non-Primitive: Further divided into:
+   - Linear: Arrays, linked lists, stacks and queues.
+   - Non-Linear: Trees and graphs.
+4. What is a nested structure?
+
+Ans: A nested structure in C is a structure declared inside another structure. It is also called a structure within a structure.
+
+5. What are unions?
+
+Ans: A union is a user-defined data type in C that allows different data types to share the same memory location.
+
+6. Compare structures and unions.
+
+Ans:
+Structure	Union
+Each member has separate memory.	All members share the same memory.
+All members can store values simultaneously.	Only one member's value is meaningful at a time.
+Size is approximately the sum of member sizes, including padding.	Size is equal to the largest member, including alignment requirements.
+Changing one member does not affect other members.	Changing one member may affect the value of other members.
+
+7. What are the operators used to access data from structures?
+
+Ans: Two operators are used:
+- Dot operator (.): Used to access structure members using a structure variable.
+- Arrow operator (->): Used to access structure members using a pointer.
+8. What is an array of structures?
+
+Ans: An array of structures is a collection of structure variables of the same type stored under a single array name.
+
+9. List the applications of structures.
+
+Ans:
+- Database management systems.
+- Storing student and employee records.
+- Creating arrays of structures.
+- Managing complex data.
+- Representing real-world entities.
+10. How can we access structure members through a pointer?
+
+Ans: Structure members can be accessed through a pointer in two ways:
+1. Using the dereference operator and dot operator: (*ptr).member
+2. Using the arrow operator: ptr->member
+Example:
+ptr->age;
+
+
+Both methods access the same structure member.
