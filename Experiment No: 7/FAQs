@@ -1,0 +1,68 @@
+1. What are the different types of expressions?
+
+Ans: There are three types of expressions:
+1. Infix
+2. Prefix
+3. Postfix
+2. Give examples of all types of expressions.
+
+Ans:
+Expression	Example
+Infix	a + b
+Prefix	+ab
+Postfix	ab+
+
+3. Which data structure is used for evaluation of expressions?
+
+Ans: Stack is used for the evaluation of infix, prefix and postfix expressions.
+
+4. Convert the infix expression a+b+c+d into prefix expression.
+
+Ans: +++abcd
+
+5. Convert the infix expression a+b+c+d into postfix expression.
+
+Ans: ab+c+d+
+
+Additional important viva questions
+6. What is an infix expression?
+
+Ans: An expression in which the operator is written between two operands is called an infix expression.
+
+Example: A+B
+
+7. What is a prefix expression?
+
+Ans: An expression in which the operator is written before the operands is called a prefix expression.
+
+Example: +AB
+
+8. What is a postfix expression?
+
+Ans: An expression in which the operator is written after the operands is called a postfix expression.
+
+Example: AB+
+
+9. What is the advantage of postfix expressions?
+
+Ans: Postfix expressions do not require parentheses or operator precedence rules during evaluation.
+
+10. Which data structure is used to convert infix to postfix?
+
+Ans: Stack.
+
+11. What is operator precedence?
+
+Ans: Operator precedence determines the order in which operators are evaluated in an expression.
+
+Example: Multiplication (*) has higher precedence than addition (+).
+
+12. What is associativity?
+
+Ans: Associativity determines the order of evaluation when operators have the same precedence.
+
+Example: a+b+c is evaluated from left to right.
+
+13. What is the time complexity of expression conversion using a stack?
+
+Ans: O(n), where n is the number of characters in the expression.
