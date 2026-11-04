@@ -1,0 +1,82 @@
+1. What is the LIFO structure of a stack?
+
+Ans: LIFO stands for Last In, First Out. In a stack, elements are inserted and removed from the top. Hence, the element inserted last is removed first.
+
+2. How is a stack represented?
+
+Ans: A stack can be represented using:
+1. Array
+2. Linked List
+3. What are the possible operations performed on a stack?
+
+Ans:
+1. PUSH() – Inserts an element into the stack.
+2. POP() – Removes the top element from the stack.
+3. StackEmpty() – Checks whether the stack is empty.
+4. StackFull() – Checks whether the stack is full.
+4. Explain the stack full and stack empty conditions.
+
+Ans:
+- Stack Full: When top == MAX - 1.
+- Stack Empty: When top == -1.
+Note: This is for a stack implemented using a zero-indexed array.
+
+5. Explain the push() function in C for a stack using an array.
+
+Ans: The push() function is used to insert an element into the stack.
+void push(stack *s, int x)
+{
+    s->top = s->top + 1;
+    s->data[s->top] = x;
+}
+
+
+It increments the top position and inserts the new element at that position.
+
+6. Explain the pop() function in C for a stack using an array.
+
+Ans: The pop() function is used to remove the top element from the stack.
+int pop(stack *s)
+{
+    int x;
+    x = s->data[s->top];
+    s->top = s->top - 1;
+    return(x);
+}
+
+
+It stores the top element in x, decreases the top position and returns the removed element.
+
+7. Explain the concept of a double pointer.
+
+Ans: A double pointer is a pointer that stores the address of another pointer. It is also called a pointer to a pointer.
+
+Example:
+int **p;
+
+
+Here, p is a double pointer that stores the address of an integer pointer.
+
+Additional important viva questions
+
+8. What is stack overflow?
+
+Ans: Stack overflow occurs when we try to insert an element into an already full stack.
+
+9. What is stack underflow?
+
+Ans: Stack underflow occurs when we try to remove an element from an empty stack.
+
+10. What are the applications of stacks?
+
+Ans:
+- Function calls and recursion.
+- Expression evaluation.
+- Infix to postfix conversion.
+- Undo and redo operations.
+- Parentheses matching.
+- Reversing strings.
+11. What is the time complexity of PUSH and POP operations?
+
+Ans: Both PUSH and POP take O(1) time.
+
